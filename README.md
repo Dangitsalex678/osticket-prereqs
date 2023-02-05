@@ -18,34 +18,66 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Microsoft Azure Account
+- Azure Virtual Machines
+- <a href="https://drive.google.com/drive/folders/1UsQgjbyDkJKAs8LiZF3UUasNzymwAZSp?usp=share_link"> Installation Files
 
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/e2VhepU.png" height="80%" width="80%" alt="Creating a Resource Group in Azure"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<b>- Log into the Azure portal and search and click "Resource Groups". 
+</p>- Create a resource group for the OS Ticket Lab.</b>
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/C3lHGX8.png" height="80%" width="80%" alt="Creating a Virtual Machine in Azure"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<b>- Create a Windows 10 Virtual Machine with 2-4 CPUs.</b>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/xQB3Y4m.png" height="80%" width="80%" alt="Remote Desktop Application"/>
+</p>
+<p>
+<b>- Connect to the virtual machine with remote desktop using the IP address. The application I used on my Mac was Microsoft Remote Desktop from the App Store.</b>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/mK7mWeb.png" height="80%" width="80%" alt="Installing and Enable IIS"/>
+</p>
+<p>
+<b>- Install and enable IIS. 
+</p>- Go to "Control Panel". 
+</p>- Click "Programs". 
+</p>- Then click "Turn Windows Features on or off" 
+</p>- Find "Internet Information Services and check to enable it. 
+</p>- Expand the "World Wide Web" Menu
+</p>- Expand the "Application Development Features" Menu
+</p>- Click to enable "CGI"</b>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/Esxl8YV.png" height="80%" width="80%" alt="Checking ISS"/>
+</p>
+<p>
+<b>- Go to the browser and navigate to 127.0.0.1
+</p>- If IIS is enabled correctly, the screen above should load</b>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/SSIGSTz.png" height="80%" width="80%" alt="Downloading PHP Manager"/>
+</p>
+<p>
+<b>- Install <a href="https://drive.google.com/file/d/1O981Q9XLgIkjiQSREgY-r5yPB0QodPGJ/view">PHP Manager for IIS
+</p>- Double click to open it after it downloads</b>
 </p>
 <br />
