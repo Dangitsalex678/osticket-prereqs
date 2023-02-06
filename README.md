@@ -216,7 +216,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/qYeETOa.png" height="80%" width="80%" alt="Installing HeidiSQL"/>
+<img src="https://i.imgur.com/qYeETOa.png" height="80%" width="80%" alt="Cleaning Up Files"/>
 </p>
 <p>
 <b>- Delete C:\inetpub\wwwroot\osTicket\setup</b>
@@ -224,7 +224,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/6Gfa9et.png" height="80%" width="80%" alt="Installing HeidiSQL"/>
+<img src="https://i.imgur.com/6Gfa9et.png" height="80%" width="80%" alt="Changing Permissions"/>
 </p>
 <p>
 <b>- Set permissions for "ost-config.php to "Read and Execute"</b>
