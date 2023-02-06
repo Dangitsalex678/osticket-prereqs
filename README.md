@@ -28,7 +28,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/e2VhepU.png" height="80%" width="80%" alt="Creating a Resource Group in Azure"/>
 </p>
 <p>
-<b>- Log into the Azure portal and search and click "Resource Groups"
+<b>- Log into the Azure portal and search and click Resource Groups
 </p>- Create a resource group for the OS Ticket Lab</b>
 </p>
 <br />
@@ -54,13 +54,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 <b>- Install and enable IIS
-</p>- Go to "Control Panel"
-</p>- Click "Programs"
-</p>- Then click "Turn Windows Features on or off" 
-</p>- Find "Internet Information Services and check to enable it
-</p>- Expand the "World Wide Web" Menu
-</p>- Expand the "Application Development Features" Menu
-</p>- Click to enable "CGI"</b>
+</p>- Go to Control Panel
+</p>- Click Programs
+</p>- Then click Turn Windows Features on or off
+</p>- Find Internet Information Services and check to enable it
+</p>- Expand the World Wide Web Menu
+</p>- Expand the Application Development Features Menu
+</p>- Click to enable CGI</b>
 </p>
 <br />
 
@@ -128,11 +128,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 <b>- Click the start button and type "IIS"
-</p>- Right click "Internet Information Services" and select "Run as Administrator"
-</p>- Select "PHP Manager" from the menu
-</p>- Select "Register new PHP Menu"
+</p>- Right click Internet Information Services and select "Run as Administrator"
+</p>- Select PHP Manager from the menu
+</p>- Select Register new PHP Menu
 </p>- Locate and select the "php-cgi" application in the PHP folder
-</p>- Restart the server by clicking on the server's name in the left menu under "Connections", Then press "Restart" on the right menu under "Manage Server"</b>
+</p>- Restart the server by clicking on the server's name in the left menu under Connections, Then press Restart on the right menu under Manage Server</b>
 </p>
 <br />
 
@@ -153,7 +153,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 <b>- From the IIS Manager, navigate down the connections menu of the server to Default Web Sites "osTicket"
-</p>- Click "Browse *:80(http)" in the right side menu
+</p>- Click Browse *:80(http) in the right side menu
 </p>- osTicket shoud load if everything was set up correctly</b>
 </p>
 <br />
@@ -178,12 +178,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 <b>- Rename "ost-sampleconfig.php" to "ost-config.php"
 </p>- Right click the file and select properties
-</p>- Select "Security" and select "Advanced"
-</p>- Cick on "Disable inheritance"
+</p>- Select Security and select Advanced
+</p>- Cick on Disable inheritance
 </p>- Select "Remove all inherited permissions from this object"
-</p>- Click on "Add" and Click on "Select a Principal"
+</p>- Click on Add and Click on Select a Principal
 </p>- Type "Everyone" for the "Object name"
-</p>- Select "Full Control" for the permissions and click OK and Apply</b>
+</p>- Select Full Control for the permissions and click OK and Apply</b>
 </p>
 <br />
 
@@ -194,8 +194,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <b>- Install <a href="https://www.heidisql.com/installers/HeidiSQL_12.3.0.6589_Setup.exe">HeidiSQL
 </p>- Follow the instructions of the setup wizard to complete the installation
 </p>- Open HeidiSQL
-</p>- Select "New" on the bottom left corner
-</p>- Enter the Username and Password for MySQL from earlier and select "Open"
+</p>- Select New on the bottom left corner
+</p>- Enter the Username and Password for MySQL from earlier and select Open
 </p>- Right click the "Unnamed" database to the left and select "Create new Database"
 </p>- Name the new Database "osTicket"
 </p>
@@ -206,12 +206,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 <b>- Go back to IIS and navigate back to the osTicket Site Link
-</p>- Click "Continue" and fill out the information for the User and the Admin
+</p>- Click Continue and fill out the information for the User and the Admin
 </p>- Enter in the MySQL Username and Password in the "Database Settings"
 </p>- Enter "osTicket" for the MySQL Database
-</p>- Select "Install Now" when finished
+</p>- Select Install Now when finished
 </p>- Type "Everyone" for the "Object name"
-</p>- Select "Full Control" for the permissions and click OK and Apply</b>
+</p>- Select Full Control for the permissions and click OK and Apply</b>
 </p>
 <br />
 
